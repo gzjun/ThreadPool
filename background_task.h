@@ -16,6 +16,11 @@ public:
     void print(){
         std::cout<<"*********************"<<std::endl;
     }
+
+    void my_fun(int i, std::string name)
+    {
+        std::cout<<"i is:"<<i<<" hello my name is: "<<name<<std::endl;
+    }
 };
 
 
